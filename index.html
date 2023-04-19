@@ -1,16 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <link rel="stylesheet" href="style.css"></link>    
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipie App</title>
+    <title>spoonacular Image Analyzer</title>
+    <meta name="author" content="David Urbansky">
+    <meta name="description" content="A spoonacular sample app.">
+    <meta name="keywords" content="spoonacular, sample, app">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/vue-file-agent@latest/dist/vue-file-agent.css" />
+    <script src="https://unpkg.com/vue-file-agent@latest/dist/vue-file-agent.umd.js"></script>
+    <link rel="shortcut icon" href="https://spoonacular.com/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://spoonacular.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
-    <h1>Generate Food</h1>
-    <button>New Recipie</button>
-    
-</body>
-</html>
+
+    <div id="app">
+        <h1>Upload a food picture and see what happens...</h1>
+
+        <div id="imageChooser">
+            <VueFileAgent ref="vueFileAgent" :multiple="false" :deletable="true" :uploadUrl="uploadUrl" meta="false"
+                :accept="'image/*'" :maxSize="'10MB'" :maxFiles="1" @upload="onUpload($event)" compact="true"
+                @select="onSelect" :helpText="'Choose images or zip files'"
+                :errorText="{
+              type: 'Invalid file type. Only images allowed',
+              size: 'Files should not exceed 10MB in size',
+            }" v-model="foodImages"></VueFileAgent>
+        </div>
+        <template v-if="analyzed">
+            <p>
+                I think this is <span class="category">{{ analyzedImage.category.name.replace('_', ' ') }}</span> -
+                {{ probabilityText }}
+                I only know 50 different dishes right now, here's the <a href="https://spoonacular.com/food-api/docs#Image-Classification-Categories">full list</a>.
+            </p>
+        </template>
+        <template v-else>
+            <p>&lt;- upload an image here, or see it with a <a href="#" @click="analyzeWithDemo">demo picture</a><span
+                    style="position:relative;top:16px;left:5px;">⤦</span>
+                <img align="right" :src="demoImageUrl" id="demoImg" @click="analyzeWithDemo" />
+            </p>
+        </template>
+        <div style="clear:both;"></div>
+
+        <template v-if="analyzed">
+            <h1>Nutrition profile of the average <span>{{ analyzedImage.category.name.replace('_', ' ') }}</span></h1>
+
+            <div id="calories" class="nutritionBar">
+                <div></div><span>{{ nutrition.calories }} calories</span>
+            </div>
+            <div id="fat" class="nutritionBar">
+                <div></div><span>{{ nutrition.fat }}{{ analyzedImage.nutrition.fat.unit }} fat</span>
+            </div>
+            <div id="protein" class="nutritionBar">
+                <div></div><span>{{ nutrition.protein }}{{ analyzedImage.nutrition.protein.unit }} protein</span>
+            </div>
+            <div id="carbs" class="nutritionBar">
+                <div></div><span>{{ nutrition.carbs }}{{ analyzedImage.nutrition.carbs.unit }} carbs</span>
+            </div>
+
+            <h1 id="hungry">Hungry now? Try one of these</h1>
+            <div v-for="(r, i) in analyzedImage.recipes" :key="'recipe-' + i" class="recipe">
+                <h4>{{ r.title }} </h4>
+                <a :href="r.url"><img
+                        :src="'https://spoonacular.com/recipeImages/' + r.id + '-240x150.' + r.imageType" /></a>
+            </div>
+
+            <!-- shameless plug -->
+            <div id="spoonacular">
+                powered by<br>
+                <a href="https://spoonacular.com/food-api">
+                    <img src="https://spoonacular.com/application/frontend/images/logo-simple-framed-green-gradient.svg"
+                        alt="spoonacular logo"><br>
+                    spoonacular API
+                </a>
+            </div>
+        </template>
+    </div>
+    <script src="/assets/js/script.js"></script>
+    </body>
+    </html>

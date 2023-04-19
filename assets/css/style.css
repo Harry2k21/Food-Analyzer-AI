@@ -1,0 +1,137 @@
+/* body {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font:600;
+    background-color: aliceblue;
+    background-image: linear-gradient(45 degrees, red, blue);
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    background-color: #ffff;
+
+}
+
+button:hover{
+    background-color: lightblue;
+    transition: 1s;
+}
+ */
+
+
+ body {
+            background-color: rgb(241, 255, 241);
+        }
+
+        #app {
+            font-family: 'Indie Flower', cursive;
+            background-color: #fff;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12);
+            border-radius: 22px;
+        }
+
+        #demoImg {
+            margin: 10px 80px 0 0;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        .vue-file-agent {
+            width: 190px;
+        }
+
+        #app>h1:first-of-type {
+            margin-top: 0;
+        }
+
+        h1 {
+            margin-top: 60px;
+        }
+
+        h1#hungry {
+            opacity: 0;
+        }
+
+        #imageChooser {
+            display: inline-block;
+            margin-right: 20px;
+            float: left;
+        }
+
+        .recipe {
+            display: inline-block;
+            max-width: 240px;
+            width: 50px;
+            opacity: 0;
+            margin-right: 12px;
+            margin-bottom: 12px;
+        }
+
+        .recipe h4 {
+            margin: 5px 0 5px 0;
+            max-height: 50px;
+            overflow: hidden;
+        }
+
+        .recipe img {
+            max-width: 100%;
+        }
+
+        .nutritionBar {
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+        .nutritionBar div {
+            height: 100%;
+            width: 0;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .nutritionBar span {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 22px;
+            display: inline;
+        }
+
+        span.category {
+            background-color: #29ad43;
+            color: white;
+            padding: 0 10px;
+            border-radius: 10px;
+        }
+
+        #calories div {
+            background-color: #ff5c5c;
+        }
+
+        #fat div {
+            background-color: #3fcc3f;
+        }
+
+        #protein div {
+            background-color: #7077ff;
+        }
+
+        #carbs div {
+            background-color: #ff9400;
+        }
+
+        #spoonacular {
+            margin-top: 50px;
+            opacity: 0;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            text-align: center;
+        }
