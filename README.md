@@ -24,9 +24,9 @@ To make some money of course 🤑
 
 ## Screenshots
 
-[Screenshot 1](https://user-images.githubusercontent.com/125808990/233476581-2fd1476a-492d-4a55-b869-158e9eb88f32.png)
+[No User Input](https://user-images.githubusercontent.com/125808990/233476581-2fd1476a-492d-4a55-b869-158e9eb88f32.png)
 
-[Screenshot 2](https://user-images.githubusercontent.com/125808990/233476678-512850dd-349b-467a-a749-eee76037daa4.png)
+[User Input](https://user-images.githubusercontent.com/125808990/233476678-512850dd-349b-467a-a749-eee76037daa4.png)
 
 [Screenshot 3](https://user-images.githubusercontent.com/125808990/233476788-7c991ffe-a123-4ea6-8d14-f1abec9d4686.png)
 
