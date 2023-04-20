@@ -9,7 +9,7 @@ var app = new Vue({
 			uploadHeaders: {
 				'x-rapidapi-host':
 					'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com',
-				'x-rapidapi-key': '384023f0acmsh476a5f560383b2ep1e263djsnddfe29a727bb',
+				'x-rapidapi-key': '384023f0acmsh476a5f560383b2ep1e263djsnddfe29a728bb',
 			},
 			foodImages: [],
 			analyzed: false,
