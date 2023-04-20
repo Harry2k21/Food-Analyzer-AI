@@ -1,9 +1,13 @@
-# Image Analyzer
+# Image Analyzer 🌠
 
-## Description: A simple food analyzer giving you information of the nutrients in the food image chosen, then you get a choice of similar foods with recipes so you can make your own creation
+## Description: 
+
+A simple food analyzer giving you information of the nutrients in the food image chosen, then you get a choice of similar foods with recipes so you can make your own creation
 
 
-## Operation: After page loads simply upload or drag n drop a food image into the "grey-dotted area" and wait for the magic 🪄...
+## Operation: 
+
+After page loads simply upload or drag n drop a food image into the "grey-dotted area" and wait for the magic 🪄...
 the following data is provided:
 
  - Calories
@@ -16,6 +20,7 @@ the following data is provided:
                                
 
 ## Purpose:
+To make some money of course 🤑
 
 ## Screenshots
 
