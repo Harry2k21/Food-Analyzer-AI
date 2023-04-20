@@ -1,5 +1,10 @@
-# Food Image Analyzer
+# Street Food Image Analyzer
 
+## Description:
+
+## Operation:
+
+## Purpose:
 
 ## Screenshots
 
@@ -12,7 +17,13 @@
 [Screenshot 4](https://user-images.githubusercontent.com/125808990/233476870-70b16c82-2c8e-41a4-8d27-03fd79f961e3.png)
 
 
+## VS Code - Extensions
 
+- [x] Quokka.js 🤖
+- [x] ESLint 🔥
+- [x] JavaScript (ES6) 
+- [x] Prettier 🔥
+- [x] Tabnine 🤖
 
 
 ## Additional resources
