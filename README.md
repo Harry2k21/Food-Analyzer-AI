@@ -5,6 +5,7 @@
 
 ## Operation: After page loads simply upload or drag n drop a food image into the "grey-dotted area" and wait for the magic 🪄...
 the following data is provided:
+
                                 - Calories
                                 - Fat
                                 - Protein
