@@ -6,11 +6,10 @@ var app = new Vue({
 			demoImageUrl: 'https://spoonacular.com/recipeImages/635350-240x150.jpg',
 			uploadUrl:
 				'https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/food/images/analyze',
-			// get a free key here: https:rapidapi.com/spoonacular/api/recipe-food-nutrition/
 			uploadHeaders: {
 				'x-rapidapi-host':
 					'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com',
-				'x-rapidapi-key': '',
+				'x-rapidapi-key': '384023f0acmsh476a5f560383b2ep1e263djsnddfe29a727bb',
 			},
 			foodImages: [],
 			analyzed: false,
