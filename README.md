@@ -10,3 +10,15 @@
 [Screenshot 3](https://user-images.githubusercontent.com/125808990/233476788-7c991ffe-a123-4ea6-8d14-f1abec9d4686.png)
 
 [Screenshot 4](https://user-images.githubusercontent.com/125808990/233476870-70b16c82-2c8e-41a4-8d27-03fd79f961e3.png)
+
+
+
+
+
+## Additional resources
+
+- [Vue.js](https://vuejs.org/)
+- [Anime.js](https://animejs.com/)
+- [Node.js](https://nodejs.org/api/synopsis.html)
+- [Rapid Api](https://rapidapi.com/)
+- [Spoonacular Api](https://rapidapi.com/spoonacular/api/recipe-food-nutrition/)
