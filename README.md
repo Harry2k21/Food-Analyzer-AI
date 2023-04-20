@@ -28,9 +28,9 @@ To make some money of course 🤑
 
 [User Input](https://user-images.githubusercontent.com/125808990/233476678-512850dd-349b-467a-a749-eee76037daa4.png)
 
-[Screenshot 3](https://user-images.githubusercontent.com/125808990/233476788-7c991ffe-a123-4ea6-8d14-f1abec9d4686.png)
+[Similar Foods](https://user-images.githubusercontent.com/125808990/233476788-7c991ffe-a123-4ea6-8d14-f1abec9d4686.png)
 
-[Screenshot 4](https://user-images.githubusercontent.com/125808990/233476870-70b16c82-2c8e-41a4-8d27-03fd79f961e3.png)
+[Complete App](https://user-images.githubusercontent.com/125808990/233476870-70b16c82-2c8e-41a4-8d27-03fd79f961e3.png)
 
 
 ## VS Code - Extensions
