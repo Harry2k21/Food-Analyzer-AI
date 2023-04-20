@@ -1,8 +1,14 @@
-# Street Food Image Analyzer
+# Image Analyzer
 
-## Description:
+## Description: A simple food analyzer giving you information of the nutrients in the food image chosen, then you get a choice of similar foods with recipes so you can make your own creation
 
-## Operation:
+
+## Operation: After page loads simply upload or drag n drop a food image into the "grey-dotted area" and wait for the magic 🪄...
+the following data is provided:
+                                - Calories
+                                - Fat
+                                - Protein
+                                - Carbs
 
 ## Purpose:
 
