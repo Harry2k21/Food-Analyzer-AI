@@ -1,7 +1,7 @@
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#image-analyzer-)
 
-# ➤ Image Analyzer 🌠
+# ➤ Food Image Analyzer 🌠
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description-)
