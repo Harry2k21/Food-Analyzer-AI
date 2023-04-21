@@ -3,7 +3,7 @@
 
 # ➤ Food Image Analyzer 🌠
 
-[App](!https://harry2k21.github.io/Recepie-App/) 
+[App](https://harry2k21.github.io/Recepie-App/) [Left click to open in a new tab]
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description-)
 
