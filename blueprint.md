@@ -1,20 +1,11 @@
+# Image Analyzer 🌠
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#image-analyzer-)
-
-# ➤ Image Analyzer 🌠
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description-)
-
-## ➤ Description: 
+## Description: 
 
 A simple food analyzer giving you information of the nutrients in the food image chosen, then you get a choice of similar foods with recipes so you can make your own creation
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#operation-)
-
-## ➤ Operation: 
+## Operation: 
 
 After page loads simply upload or drag n drop a food image into the "grey-dotted area" and wait for the magic 🪄...
 the following data is provided:
@@ -28,16 +19,10 @@ the following data is provided:
                                
                                
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#purpose)
-
-## ➤ Purpose:
+## Purpose:
 To make some money of course 🤑
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#screenshots)
-
-## ➤ Screenshots
+## Screenshots
 
 [No User Input](https://user-images.githubusercontent.com/125808990/233476581-2fd1476a-492d-4a55-b869-158e9eb88f32.png)
 
@@ -48,10 +33,7 @@ To make some money of course 🤑
 [Complete App](https://user-images.githubusercontent.com/125808990/233476870-70b16c82-2c8e-41a4-8d27-03fd79f961e3.png)
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#vs-code---extensions)
-
-## ➤ VS Code - Extensions
+## VS Code - Extensions
 
 - [x] Quokka.js 🤖
 - [x] ESLint 🔥
@@ -60,10 +42,7 @@ To make some money of course 🤑
 - [x] Tabnine 🤖
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#additional-resources)
-
-## ➤ Additional resources
+## Additional resources
 
 - [Vue.js](https://vuejs.org/)
 - [Anime.js](https://animejs.com/)
