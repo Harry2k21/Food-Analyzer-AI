@@ -25,10 +25,9 @@ the following data is provided:
  - Protein
  - Carbs
 
+Then there is a selection of 9 similar foods for you to create each with a link to the recipe 
                                
-                               
-                               
-
+                                                          
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#purpose)
 
