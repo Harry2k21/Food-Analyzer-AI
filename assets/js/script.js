@@ -224,3 +224,66 @@ var app = new Vue({
 		vuefileagent: VueFileAgent.VueFileAgent,
 	},
 });
+
+// const settings = {
+// 	"async": true,
+// 	"crossDomain": true,
+// 	"url": "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/WebSearchAPI?q=taylor%20swift&pageNumber=1&pageSize=10&autoCorrect=true",
+// 	"method": "GET",
+// 	"headers": {
+// 		"X-RapidAPI-Key": "7d54803b6fmsh1dad58665e7045bp1ae744jsn165a9d143340",
+// 		"X-RapidAPI-Host": "contextualwebsearch-websearch-v1.p.rapidapi.com"
+// 	}
+// };
+
+// $.ajax(settings).done(function (response) {
+// 	console.log(response);
+// 	console.log(response.value[0].image.url)
+
+// 	var image = (response.value[0].image.url)
+// 	// $('#image').prepend('<img id="theImg" src="images" />')
+// 	var  main = $('#image').append(response.value[0].image.url)
+// 	main.append(image);
+
+// 	var img = document.createElement("img"); 
+ 
+//     img.src = image; 
+//     var src = document.getElementById("x"); 
+
+
+//     src.appendChild(img); 
+	
+
+// });
+
+$("#gif").on("click", function() {
+
+	// Storing our giphy API URL for a random cat image
+	var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=SKLNraUhoUaUYGOBM5PcTbvhMuRCAmup";
+
+	// Perfoming an AJAX GET request to our queryURL
+	$.ajax({
+	  url: queryURL,
+	  method: "GET"
+	})
+
+	// After the data from the AJAX request comes back
+	  .then(function(response) {
+	    $("#images").empty();
+	  // Saving the image_original_url property
+		var imageUrl = response.data.images.original.url;
+
+		// Creating and storing an image tag
+		var randomGif = $("<img>");
+
+		// Setting the randomGif src attribute to imageUrl
+		randomGif.attr("src", imageUrl);
+		randomGif.attr("alt", "random gif");
+		randomGif.attr("id", "new")
+
+		// Prepending the randomGif to the images div
+		$("#images").prepend(randomGif);
+
+		
+		
+	  })});
