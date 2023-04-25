@@ -122,3 +122,31 @@ span.category {
 	width: 200px;
 	text-align: center;
 }
+
+#gif {
+	position: relative;
+	margin: 10px;
+	left: 580px;
+	background-color: aliceblue;
+	padding: 5px;
+
+}
+#gif:hover {
+	background-color: #a2c2f9;
+	transition: 1s;
+}
+#images {
+	text-align: center;
+}
+
+#title {
+	font-family: 'Indie Flower', cursive;
+	position: relative;
+	display: inline-flex;
+	font-size: 42px;
+	left: 520px;
+	padding: 10px;
+	border: black 3px solid;
+	border-radius: 8px;
+	background-color: aliceblue;
+}
