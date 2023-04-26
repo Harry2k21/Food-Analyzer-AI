@@ -31,61 +31,65 @@
 			type="image/x-icon" />
 		<!-- css  -->
 		<link rel="stylesheet" href="assets/css/style.css" />
-		<title></title>
+		<title>Food Image Analyzer</title>
 	</head>
 
 	<body>
+		<h1 id="mainTitle">Food Image Analyzer</h1>
 		<div id="app">
+			<article>
+				<!-- display time & date  -->
+				<h1>📆 <span id="time"></span></h1>
 			<section id="banner">
 				<article id="imageBanner">
 					<h3 class="imageTitle">Baked Salmon</h3>
-					<img src="/assets/images/bakedSalmon.png" alt="baked salmon" />
+					<img src="./assets/images/bakedSalmon.png" alt="baked salmon" />
 				</article>
 			</section>
 			<section id="banner">
 				<article id="imageBanner">
 					<h3 class="imageTitle">Beef Brisket</h3>
-					<img src="/assets/images/beefBrisket.png" alt="beef brisket" />
+					<img src="./assets/images/beefBrisket.png" alt="beef brisket" />
 				</article>
 			</section>
 			<section id="banner">
 				<article id="imageBanner">
 					<h3 class="imageTitle">burger</h3>
-					<img src="/assets/images/burger.png" alt="burger" />
+					<img src="./assets/images/burger.png" alt="burger" />
 				</article>
 			</section>
 			<section id="banner">
 				<article id="imageBanner">
 					<h3 class="imageTitle">Chicken Wings</h3>
-					<img src="/assets/images/chickenWings.png" alt="chicken wings" />
+					<img src="./assets/images/chickenWings.png" alt="chicken wings" />
 				</article>
 			</section>
 			<section id="banner">
 				<article id="imageBanner">
 					<h3 class="imageTitle">Chilli</h3>
-					<img src="/assets/images/chilli.png" alt="chilli" />
+					<img src="./assets/images/chilli.png" alt="chilli" />
 				</article>
 			</section>
 			<section id="banner">
 				<article id="imageBanner">
-					<h3 class="imageTitle">Baked Salmon</h3>
-					<img src="/assets/images/chowMein.png" alt="Chow Mein" />
+					<h3 class="imageTitle">Chow Mein</h3>
+					<img src="./assets/images/chowMein.png" alt="Chow Mein" />
 				</article>
 			</section>
 			<section id="banner">
 				<article id="imageBanner">
 					<h3 class="imageTitle">Falafel</h3>
-					<img src="/assets/images/falafel.png" alt="Falafel" />
+					<img src="./assets/images/falafel.png" alt="Falafel" />
 				</article>
 			</section>
 			<section id="banner">
 				<article id="imageBanner">
 					<h3 class="imageTitle">Kebab</h3>
-					<img src="/assets/images/kebab.png" alt="Kebab" />
+					<img src="./assets/images/kebab.png" alt="Kebab" />
 				</article>
 			</section>
 
-			<h1>Upload a food picture and see what happens...</h1>
+			<h2>Drag or drop a food picture and see what happens...</h2>
 
 			<div id="imageChooser">
 				<VueFileAgent
@@ -123,9 +127,11 @@
 			</template>
 			<template v-else>
 				<p>
-					&lt;- upload an image here, or see it with a
+					&lt;- drop an image here, or see it with a
 					<a href="#" @click="analyzeWithDemo">demo picture</a
-					><span style="position: relative; top: 16px; left: 5px">⤦</span>
+					><span style="position: relative; top: 16px; left: 5px; color: white"
+						>⤦</span
+					>
 					<img
 						align="right"
 						:src="demoImageUrl"
@@ -136,7 +142,7 @@
 			<div style="clear: both"></div>
 
 			<template v-if="analyzed">
-				<h1>
+				<h1 class="nutri">
 					Nutrition profile of the average
 					<span>{{ analyzedImage.category.name.replace('_', ' ') }}</span>
 				</h1>

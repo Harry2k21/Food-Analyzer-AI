@@ -1,0 +1,4 @@
+// DONT UPLOAD API TO GITHUB
+
+const MY_API_KEY = '384023f0acmsh476a5f560383b2ep1e263djsnddfe29a727bb';
+export { MY_API_KEY };

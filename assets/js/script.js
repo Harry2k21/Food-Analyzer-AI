@@ -1,3 +1,14 @@
+// added live time & date with emojis 🤖
+`use strict`;
+function refreshTime() {
+	const timeDisplay = document.getElementById('time');
+	const dateString = new Date().toLocaleString();
+	const formattedString = dateString.replace(', ', ' 🕧 ');
+	timeDisplay.textContent = formattedString;
+}
+// 1 second refresh time
+setInterval(refreshTime, 1000);
+
 var app = new Vue({
 	el: '#app',
 	mounted() {},
@@ -9,7 +20,7 @@ var app = new Vue({
 			uploadHeaders: {
 				'x-rapidapi-host':
 					'spoonacular-recipe-food-nutrition-v1.p.rapidapi.com',
-				'x-rapidapi-key': '384023f0acmsh476a5f560383b2ep1e263djsnddfe29a728bb',
+				'x-rapidapi-key': '384023f0acmsh476a5f560383b2ep1e263djsnddfe29a727bb',
 			},
 			foodImages: [],
 			analyzed: false,
@@ -225,34 +236,9 @@ var app = new Vue({
 	},
 });
 
-// const settings = {
-// 	"async": true,
-// 	"crossDomain": true,
-// 	"url": "https://contextualwebsearch-websearch-v1.p.rapidapi.com/api/Search/WebSearchAPI?q=taylor%20swift&pageNumber=1&pageSize=10&autoCorrect=true",
-// 	"method": "GET",
-// 	"headers": {
-// 		"X-RapidAPI-Key": "7d54803b6fmsh1dad58665e7045bp1ae744jsn165a9d143340",
-// 		"X-RapidAPI-Host": "contextualwebsearch-websearch-v1.p.rapidapi.com"
-// 	}
-// };
+// !============================ END OF FOOD APP ===================================
 
-// $.ajax(settings).done(function (response) {
-// 	console.log(response);
-// 	console.log(response.value[0].image.url)
-
-// 	var image = (response.value[0].image.url)
-// 	// $('#image').prepend('<img id="theImg" src="images" />')
-// 	var  main = $('#image').append(response.value[0].image.url)
-// 	main.append(image);
-
-// 	var img = document.createElement("img");
-
-//     img.src = image;
-//     var src = document.getElementById("x");
-
-//     src.appendChild(img);
-
-// });
+// ----------------------------------------------------------------ADD COMMENTS
 
 $('#gif').on('click', function () {
 	// Storing our giphy API URL for a random cat image
