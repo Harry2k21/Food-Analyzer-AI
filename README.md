@@ -58,6 +58,19 @@ To make some money of course 🤑
 [Updated Version](https://user-images.githubusercontent.com/125808990/234613788-c6fb692a-7a3e-4ef7-9d36-8cd6123eb19a.png)
 
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#stack)
+
+## ➤ Stack
+
+- [x] AnimeJS
+- [x] Vue.JS
+- [x] Vue File Agent
+- [x] Vanilla JS
+- [x] Material UI
+- [x] JQuery
+- [x] Bootsrap 5
+- [x] VS Code
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#vs-code---extensions)
 
 ## ➤ VS Code - Extensions
