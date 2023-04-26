@@ -5,7 +5,8 @@
 
 [App](https://harry2k21.github.io/Recepie-App/)
 
-![Screenshot 2023-04-26 at 15 56 22](https://user-images.githubusercontent.com/125808990/234616398-621dc078-5370-417b-b8bd-766130eff019.png)
+![Screenshot 2023-04-26 at 17 19 23](https://user-images.githubusercontent.com/125808990/234639583-aa4293db-83be-4881-abfc-ecfbf554e3e6.png)
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description-)
 
