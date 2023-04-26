@@ -21,6 +21,24 @@ body {
 		0 3px 1px -2px rgba(0, 0, 0, 0.12);
 	border-radius: 22px;
 }
+/* top food image banner */
+#banner {
+	display: inline-block;
+	gap: 0.5rem;
+	margin-left: 1.2em;
+}
+#imageBanner {
+	position: relative;
+}
+.imageTitle {
+	position: absolute;
+	bottom: 20px;
+	left: 2.3%;
+	padding: 0 0.5rem;
+	color: rgb(250, 246, 246);
+	background-color: rgba(221, 135, 44, 0.74);
+	border-radius: 3px;
+}
 
 #demoImg {
 	margin: 10px 80px 0 0;
@@ -45,11 +63,10 @@ h1#hungry {
 }
 
 #imageChooser {
-	/* display: inline-block; */
 	margin-right: 20px;
 	float: left;
 }
-
+/* recipe page */
 .recipe {
 	display: inline-block;
 	max-width: 240px;
@@ -68,7 +85,7 @@ h1#hungry {
 .recipe img {
 	max-width: 100%;
 }
-
+/* nutrients progress bars */
 .nutritionBar {
 	height: 30px;
 	margin-bottom: 10px;
@@ -123,13 +140,14 @@ span.category {
 	text-align: center;
 }
 
+/* !==============================end of food app================================== */
+
 #gif {
 	position: relative;
 	margin: 10px;
 	left: 580px;
 	background-color: aliceblue;
 	padding: 5px;
-
 }
 #gif:hover {
 	background-color: #a2c2f9;
