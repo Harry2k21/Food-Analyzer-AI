@@ -43,10 +43,13 @@ To make some money of course 🤑
 
 [User Input](https://user-images.githubusercontent.com/125808990/233476678-512850dd-349b-467a-a749-eee76037daa4.png)
 
+[Food Image Banner](https://user-images.githubusercontent.com/125808990/234614302-08faf883-fd02-4d3b-9b97-8c89faeeb93b.png)
+
 [Similar Foods](https://user-images.githubusercontent.com/125808990/233476788-7c991ffe-a123-4ea6-8d14-f1abec9d4686.png)
 
 [Complete App](https://user-images.githubusercontent.com/125808990/233476870-70b16c82-2c8e-41a4-8d27-03fd79f961e3.png)
 
+[Updated Version](https://user-images.githubusercontent.com/125808990/234613788-c6fb692a-7a3e-4ef7-9d36-8cd6123eb19a.png)
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#vs-code---extensions)
