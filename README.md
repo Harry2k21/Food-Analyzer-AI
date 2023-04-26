@@ -80,7 +80,7 @@ To make some money of course 🤑
 - [x] JavaScript (ES6) 
 - [x] Prettier 🔥
 - [x] Tabnine 🤖
-
+- [x] RapidAPI Client ✅
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#additional-resources)
@@ -92,3 +92,4 @@ To make some money of course 🤑
 - [Node.js](https://nodejs.org/api/synopsis.html)
 - [Rapid Api](https://rapidapi.com/)
 - [Spoonacular Api](https://rapidapi.com/spoonacular/api/recipe-food-nutrition/)
+- [W3 Schools](https://www.w3schools.com/)
