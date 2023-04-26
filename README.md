@@ -19,7 +19,7 @@ A simple food analyzer giving you information of the nutrients in the food image
 
 ## ➤ Operation: 
 
-After page loads simply upload or drag n drop a food image into the "grey-dotted area" and wait for the magic 🪄...
+After page loads simply drag n drop a food image into the "grey-dotted area" and wait for the magic 🪄...
 the following data is provided:
 
  - Calories
@@ -27,6 +27,7 @@ the following data is provided:
  - Protein
  - Carbs
 
+### Bonus
 Then there is a selection of 9 similar foods for you to create each with a link to the recipe 
                                
                                                           
