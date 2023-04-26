@@ -39,8 +39,11 @@
 		<div id="app">
 			<article>
 				<!-- display time & date  -->
-				<h1>📆 <span id="time"></span></h1>
-			<section id="banner">
+			<div class="dateContainer">
+				<h1><span id="time"></span></h1>
+			</div>
+				<header id="imageGallery">
+					<section id="banner">
 				<article id="imageBanner">
 					<h3 class="imageTitle">Baked Salmon</h3>
 					<img src="./assets/images/bakedSalmon.png" alt="baked salmon" />
@@ -88,9 +91,14 @@
 					<img src="./assets/images/kebab.png" alt="Kebab" />
 				</article>
 			</section>
-
-			<h2>Drag or drop a food picture and see what happens...</h2>
-
+			<section id="banner">
+				<article id="imageBanner">
+					<h3 class="imageTitle">Sushi</h3>
+					<img src="./assets/images/sushi.png" alt="sushi" />
+				</article>
+			</section>
+				</header>
+			
 			<div id="imageChooser">
 				<VueFileAgent
 					ref="vueFileAgent"
@@ -182,22 +190,18 @@
 						><img
 							:src="'https://spoonacular.com/recipeImages/' + r.id + '-240x150.' + r.imageType"
 					/></a>
-				</div>
-
-				<!-- shameless plug -->
-				<div id="spoonacular">
-					powered by<br />
-					<a href="https://spoonacular.com/food-api">
-						<img
-							src="https://spoonacular.com/application/frontend/images/logo-simple-framed-green-gradient.svg"
-							alt="spoonacular logo" /><br />
-						spoonacular API
-					</a>
-				</div>
+				</div>				
 			</template>
 		</div>
-		<button id="gif">Click Here For Random Gif</button>
-		<div id="images"></div>
+
+		<section id="gifApp">
+	    <button id="gif" type="button
+			">Click Here For Random Gif</button>
+	    <div id="images"></div>
+		</section>
+		      
+
+		
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<script src="assets/js/script.js"></script>
 	</body>

@@ -13,29 +13,40 @@ body {
 #app {
 	font-family: 'Indie Flower', cursive;
 	background-color: #060247;
-	max-width: 800px;
+	max-width: 803px;
 	margin-top: 3em;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 5rem;
 	padding: 20px;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 2px 2px rgba(0, 0, 0, 0.14),
-		0 3px 1px -2px rgba(0, 0, 0, 0.12);
 	border-radius: 22px;
 }
 #time {
 	color: white;
 	text-align: center;
-	font-size: 4rem;
+	font-size: 3.7rem;
+}
+#imageGallery {
+	margin-bottom: 1em;
+}
+.dateContainer {
+	border: 3px dashed rgb(162, 143, 73);
+	height: 100px;
+	margin-bottom: 2rem;
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
 }
 /* top food image banner */
 #banner {
 	display: inline-block;
-	gap: 0.5rem;
-	margin-left: 1.2em;
+	gap: 0.3em;
 }
 #imageBanner {
 	position: relative;
+}
+article,
+image {
+	cursor: pointer;
 }
 .imageTitle {
 	position: absolute;
@@ -62,10 +73,9 @@ body {
 }
 
 h1 {
-	margin-top: 30px;
 	color: rgb(162, 143, 73);
 	text-align: center;
-	font-size: 5rem;
+	font-size: 4rem;
 }
 h2 {
 	color: white;
@@ -164,13 +174,18 @@ span.category {
 }
 
 /* !==============================end of food app================================== */
-
-#gif {
+#gifApp {
 	position: relative;
-	margin: 10px;
-	left: 580px;
+}
+#gif {
+	position: absolute;
+	/* margin-top: 2em; */
+	right: 46%;
+	top: -20%;
 	background-color: aliceblue;
-	padding: 5px;
+	padding: 25px 20px;
+	border-radius: 0.5em;
+	cursor: pointer;
 }
 #gif:hover {
 	background-color: #a2c2f9;
@@ -178,16 +193,4 @@ span.category {
 }
 #images {
 	text-align: center;
-}
-
-#title {
-	font-family: 'Indie Flower', cursive;
-	position: relative;
-	display: inline-flex;
-	font-size: 42px;
-	left: 520px;
-	padding: 10px;
-	border: black 3px solid;
-	border-radius: 8px;
-	background-color: aliceblue;
 }
