@@ -7,6 +7,8 @@
 
 ![Screenshot 2023-04-26 at 17 19 23](https://user-images.githubusercontent.com/125808990/234639583-aa4293db-83be-4881-abfc-ecfbf554e3e6.png)
 
+[Coding Time](https://user-images.githubusercontent.com/125808990/234698140-c33eed71-d6f3-448e-a372-64eef52a620c.png)
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#description-)
 
@@ -56,6 +58,19 @@ To make some money of course 🤑
 [Updated Version](https://user-images.githubusercontent.com/125808990/234613788-c6fb692a-7a3e-4ef7-9d36-8cd6123eb19a.png)
 
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#stack)
+
+## ➤ Stack
+
+- [x] AnimeJS
+- [x] Vue.JS
+- [x] Vue File Agent
+- [x] Vanilla JS
+- [x] Material UI
+- [x] JQuery
+- [x] Bootsrap 5
+- [x] VS Code
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#vs-code---extensions)
 
 ## ➤ VS Code - Extensions
@@ -65,7 +80,7 @@ To make some money of course 🤑
 - [x] JavaScript (ES6) 
 - [x] Prettier 🔥
 - [x] Tabnine 🤖
-
+- [x] RapidAPI Client ✅
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#additional-resources)
@@ -77,3 +92,4 @@ To make some money of course 🤑
 - [Node.js](https://nodejs.org/api/synopsis.html)
 - [Rapid Api](https://rapidapi.com/)
 - [Spoonacular Api](https://rapidapi.com/spoonacular/api/recipe-food-nutrition/)
+- [W3 Schools](https://www.w3schools.com/)
