@@ -241,7 +241,7 @@ var app = new Vue({
 // ----------------------------------------------------------------ADD COMMENTS
 
 $('#gif').on('click', function () {
-	// Storing our giphy API URL for a random cat image
+	// Storing our giphy API URL for a random giphy image
 	var queryURL =
 		'https://api.giphy.com/v1/gifs/random?api_key=SKLNraUhoUaUYGOBM5PcTbvhMuRCAmup';
 

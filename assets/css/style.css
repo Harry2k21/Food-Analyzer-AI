@@ -12,7 +12,7 @@ body {
 
 #app {
 	font-family: 'Indie Flower', cursive;
-	background-color: #060247;
+	background-color: rgb(104, 134, 163);
 	max-width: 803px;
 	margin-top: 5em;
 	margin-left: auto;
@@ -53,7 +53,7 @@ image {
 	left: 2.3%;
 	padding: 0 0.5rem;
 	color: rgb(250, 246, 246);
-	background-color: rgba(221, 135, 44, 0.74);
+	background-color: rgba(104, 167, 185, 0.74);
 	border-radius: 3px;
 }
 
@@ -81,7 +81,8 @@ h2 {
 }
 
 h1#hungry {
-	color: rgb(92, 213, 6);
+	color: white;
+	font-size: 62px;
 }
 
 #imageChooser {
@@ -133,7 +134,7 @@ p {
 	color: white;
 }
 a {
-	color: lime;
+	color: rgb(76, 185, 195);
 }
 /* nutrients info  */
 span.category {
@@ -144,7 +145,8 @@ span.category {
 }
 
 .nutri {
-	color: lime;
+	color: white;
+	font-size: 50px;
 }
 
 #calories div {
@@ -175,6 +177,8 @@ span.category {
 /* !==============================end of food app================================== */
 #gifApp {
 	/* margin-left: 1%; */
+	position: relative;
+	text-align: center;
 	padding: .7rem;
 }
 #gif {
@@ -184,6 +188,8 @@ span.category {
 	font-size: 1.4rem;
 	border-radius: 0.5em;
 	cursor: pointer;
+	position: relative;
+	
 }
 #gif:hover {
 	background-color: #a2c2f9;
@@ -192,4 +198,28 @@ span.category {
 #images {
 	/* border: 7px solid   rgb(162, 143, 73); */
 	padding: 0;
+}
+
+#mainTitle {
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	/* width: 40%; */
+	/* height: 40%; */
+	font-size: 54px;
+	font-family:sans-serif;
+	color: white;
+	background-color: rgb(171, 220, 234);
+	border: black solid 4px;
+	display: inline-block;
+	/* top: 35px;
+	/* margin-left: 30px; */
+	padding: 20px;
+	left: 150px;
+
+}
+
+#nutri{
+	color: white;
 }
