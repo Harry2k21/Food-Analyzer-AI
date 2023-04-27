@@ -20,6 +20,8 @@
 
 A simple food analyzer giving you information of the nutrients in the food image chosen, then you get a choice of similar foods with recipes so you can make your own creation
 
+The final dataset is 50 classes with a total of 15,742 images (4.4 GB in size).
+
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#operation-)
