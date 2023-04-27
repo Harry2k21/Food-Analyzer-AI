@@ -30,75 +30,80 @@
 			href="https://spoonacular.com/favicon.ico"
 			type="image/x-icon" />
 		<!-- css  -->
+		<!-- <link rel="stylesheet" href="assets/css/button.css"> -->
 		<link rel="stylesheet" href="assets/css/style.css" />
 		<title>Food Image Analyzer</title>
 	</head>
 
 	<body>
 		<h1 id="mainTitle">Food Image Analyzer</h1>
+		<button id="gif" class="button" type="button">GIFS4U</button>
 		<div id="app">
-			<article>
-				<!-- display time & date  -->
+			<!-- display time & date  -->
 			<div class="dateContainer">
-				<h1><span id="time"></span></h1>
+				<h1>📆 <span id="time"></span></h1>
 			</div>
-				<header id="imageGallery">
-					<section id="banner">
-				<article id="imageBanner">
-					<h3 class="imageTitle">Baked Salmon</h3>
-					<img src="./assets/images/bakedSalmon.png" alt="baked salmon" />
-				</article>
+			<section id="gifApp">
+				<div id="images"></div>
 			</section>
-			<section id="banner">
-				<article id="imageBanner">
-					<h3 class="imageTitle">Beef Brisket</h3>
-					<img src="./assets/images/beefBrisket.png" alt="beef brisket" />
-				</article>
-			</section>
-			<section id="banner">
-				<article id="imageBanner">
-					<h3 class="imageTitle">burger</h3>
-					<img src="./assets/images/burger.png" alt="burger" />
-				</article>
-			</section>
-			<section id="banner">
-				<article id="imageBanner">
-					<h3 class="imageTitle">Chicken Wings</h3>
-					<img src="./assets/images/chickenWings.png" alt="chicken wings" />
-				</article>
-			</section>
-			<section id="banner">
-				<article id="imageBanner">
-					<h3 class="imageTitle">Chilli</h3>
-					<img src="./assets/images/chilli.png" alt="chilli" />
-				</article>
-			</section>
-			<section id="banner">
-				<article id="imageBanner">
-					<h3 class="imageTitle">Chow Mein</h3>
-					<img src="./assets/images/chowMein.png" alt="Chow Mein" />
-				</article>
-			</section>
-			<section id="banner">
-				<article id="imageBanner">
-					<h3 class="imageTitle">Falafel</h3>
-					<img src="./assets/images/falafel.png" alt="Falafel" />
-				</article>
-			</section>
-			<section id="banner">
-				<article id="imageBanner">
-					<h3 class="imageTitle">Kebab</h3>
-					<img src="./assets/images/kebab.png" alt="Kebab" />
-				</article>
-			</section>
-			<section id="banner">
-				<article id="imageBanner">
-					<h3 class="imageTitle">Sushi</h3>
-					<img src="./assets/images/sushi.png" alt="sushi" />
-				</article>
-			</section>
-				</header>
-			
+
+			<header id="imageGallery">
+				<section id="banner">
+					<article id="imageBanner">
+						<h3 class="imageTitle">Baked Salmon</h3>
+						<img src="./assets/images/bakedSalmon.png" alt="baked salmon" />
+					</article>
+				</section>
+				<section id="banner">
+					<article id="imageBanner">
+						<h3 class="imageTitle">Beef Brisket</h3>
+						<img src="./assets/images/beefBrisket.png" alt="beef brisket" />
+					</article>
+				</section>
+				<section id="banner">
+					<article id="imageBanner">
+						<h3 class="imageTitle">burger</h3>
+						<img src="./assets/images/burger.png" alt="burger" />
+					</article>
+				</section>
+				<section id="banner">
+					<article id="imageBanner">
+						<h3 class="imageTitle">Chicken Wings</h3>
+						<img src="./assets/images/chickenWings.png" alt="chicken wings" />
+					</article>
+				</section>
+				<section id="banner">
+					<article id="imageBanner">
+						<h3 class="imageTitle">Chilli</h3>
+						<img src="./assets/images/chilli.png" alt="chilli" />
+					</article>
+				</section>
+				<section id="banner">
+					<article id="imageBanner">
+						<h3 class="imageTitle">Chow Mein</h3>
+						<img src="./assets/images/chowMein.png" alt="Chow Mein" />
+					</article>
+				</section>
+				<section id="banner">
+					<article id="imageBanner">
+						<h3 class="imageTitle">Falafel</h3>
+						<img src="./assets/images/falafel.png" alt="Falafel" />
+					</article>
+				</section>
+				<section id="banner">
+					<article id="imageBanner">
+						<h3 class="imageTitle">Kebab</h3>
+						<img src="./assets/images/kebab.png" alt="Kebab" />
+					</article>
+				</section>
+				<section id="banner">
+					<article id="imageBanner">
+						<h3 class="imageTitle">Sushi</h3>
+						<img src="./assets/images/sushi.png" alt="sushi" />
+					</article>
+				</section>
+			</header>
+
 			<div id="imageChooser">
 				<VueFileAgent
 					ref="vueFileAgent"
@@ -190,18 +195,10 @@
 						><img
 							:src="'https://spoonacular.com/recipeImages/' + r.id + '-240x150.' + r.imageType"
 					/></a>
-				</div>				
+				</div>
 			</template>
 		</div>
 
-		<section id="gifApp">
-	    <button id="gif" type="button
-			">Click Here For Random Gif</button>
-	    <div id="images"></div>
-		</section>
-		      
-
-		
 		<script src="https://code.jquery.com/jquery.js"></script>
 		<script src="assets/js/script.js"></script>
 	</body>

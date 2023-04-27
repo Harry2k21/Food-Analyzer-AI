@@ -14,25 +14,24 @@ body {
 	font-family: 'Indie Flower', cursive;
 	background-color: #060247;
 	max-width: 803px;
-	margin-top: 3em;
+	margin-top: 5em;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 	padding: 20px;
 	border-radius: 22px;
 }
 #time {
 	color: white;
-	text-align: center;
 	font-size: 3.7rem;
 }
 #imageGallery {
 	margin-bottom: 1em;
 }
 .dateContainer {
-	border: 3px dashed rgb(162, 143, 73);
+	/* border: 3px dashed rgb(162, 143, 73); */
 	height: 100px;
-	margin-bottom: 2rem;
+	margin-bottom: .5rem;
 	border-top-right-radius: 12px;
 	border-top-left-radius: 12px;
 }
@@ -176,21 +175,29 @@ span.category {
 /* !==============================end of food app================================== */
 #gifApp {
 	position: relative;
+	margin-left: 15%;
+
 }
 #gif {
 	position: absolute;
-	/* margin-top: 2em; */
-	right: 46%;
-	top: -20%;
-	background-color: aliceblue;
-	padding: 25px 20px;
+	right: 48%;
+	top: 4.9%;
+	background-color:  rgb(208, 186, 107);
+	color: white;
+	padding: 15px 20px;
+	font-size: 1.4rem;
 	border-radius: 0.5em;
 	cursor: pointer;
+	margin-top: 1rem;
+
 }
 #gif:hover {
 	background-color: #a2c2f9;
 	transition: 1s;
 }
 #images {
-	text-align: center;
+	border: 7px solid   rgb(162, 143, 73);
+	border-radius: .5rem;
+	width: 76%;
+	margin-bottom: .5rem;
 }

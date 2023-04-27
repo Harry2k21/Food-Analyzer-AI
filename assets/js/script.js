@@ -3,7 +3,7 @@
 function refreshTime() {
 	const timeDisplay = document.getElementById('time');
 	const dateString = new Date().toLocaleString();
-	const formattedString = dateString.replace(', ', ' - ');
+	const formattedString = dateString.replace(', ', ' ⏳ ');
 	timeDisplay.textContent = formattedString;
 }
 // 1 second refresh time
