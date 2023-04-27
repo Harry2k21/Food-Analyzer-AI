@@ -61,7 +61,15 @@ To make some money of course 🤑
 
 [Prototype Version](https://user-images.githubusercontent.com/125808990/234613788-c6fb692a-7a3e-4ef7-9d36-8cd6123eb19a.png)
 
-![Screenshot 2023-04-27 at 08 46 11](https://user-images.githubusercontent.com/125808990/234828575-ff9ecfb2-3ccb-4cd5-8dd9-99295eaf5b26.png)
+[Screenshot 2023-04-27 at 08 46 11](https://user-images.githubusercontent.com/125808990/234828575-ff9ecfb2-3ccb-4cd5-8dd9-99295eaf5b26.png)
+
+[Mobile View  Top](https://user-images.githubusercontent.com/125808990/234833094-fb8e4130-9a34-4702-b3c0-84e02cdedd15.png)
+
+[Gif Button](https://user-images.githubusercontent.com/125808990/234833153-ee6afbc2-ce9c-4be9-854c-4257aac013e4.png)
+
+[Website Recipe](https://user-images.githubusercontent.com/125808990/234833353-b8145ac5-093d-4e99-892e-c8720d7da1c6.png)
+
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#stack)
 
