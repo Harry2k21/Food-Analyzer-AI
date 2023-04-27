@@ -3,6 +3,9 @@
 
 # ➤ Food Image Analyzer 🌠
 
+[![License](https://img.shields.io/packagist/l/dingo/api.svg?style=flat-square)](LICENSE)
+
+
 [App](https://harry2k21.github.io/Recepie-App/)
 
 ![App](https://user-images.githubusercontent.com/125808990/234825746-661bceeb-3eb6-4f24-8706-c8d611687773.png)
