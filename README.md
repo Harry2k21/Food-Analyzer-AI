@@ -57,10 +57,11 @@ To make some money of course 🤑
 
 [Similar Foods](https://user-images.githubusercontent.com/125808990/233476788-7c991ffe-a123-4ea6-8d14-f1abec9d4686.png)
 
-[Complete App](https://user-images.githubusercontent.com/125808990/233476870-70b16c82-2c8e-41a4-8d27-03fd79f961e3.png)
+[Unstyleyd Version](https://user-images.githubusercontent.com/125808990/233476870-70b16c82-2c8e-41a4-8d27-03fd79f961e3.png)
 
-[Updated Version](https://user-images.githubusercontent.com/125808990/234613788-c6fb692a-7a3e-4ef7-9d36-8cd6123eb19a.png)
+[Prototype Version](https://user-images.githubusercontent.com/125808990/234613788-c6fb692a-7a3e-4ef7-9d36-8cd6123eb19a.png)
 
+![Screenshot 2023-04-27 at 08 46 11](https://user-images.githubusercontent.com/125808990/234828575-ff9ecfb2-3ccb-4cd5-8dd9-99295eaf5b26.png)
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#stack)
 
