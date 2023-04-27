@@ -83,7 +83,6 @@ To make some money of course 🤑
 - [x] Vanilla JS
 - [x] Material UI
 - [x] JQuery
-- [x] Bootsrap 5
 - [x] VS Code
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#vs-code---extensions)
