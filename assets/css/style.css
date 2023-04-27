@@ -23,7 +23,7 @@ body {
 }
 #time {
 	color: white;
-	font-size: 3.7rem;
+	font-size: 3rem;
 }
 #imageGallery {
 	margin-bottom: 1em;
@@ -174,30 +174,22 @@ span.category {
 
 /* !==============================end of food app================================== */
 #gifApp {
-	position: relative;
-	margin-left: 15%;
-
+	/* margin-left: 1%; */
+	padding: .7rem;
 }
 #gif {
-	position: absolute;
-	right: 48%;
-	top: 6.9%;
 	background-color:  rgb(208, 186, 107);
 	color: white;
 	padding: 15px 20px;
 	font-size: 1.4rem;
 	border-radius: 0.5em;
 	cursor: pointer;
-	margin-top: 1rem;
-
 }
 #gif:hover {
 	background-color: #a2c2f9;
 	transition: 1s;
 }
 #images {
-	border: 7px solid   rgb(162, 143, 73);
-	border-radius: .5rem;
-	width: 76%;
-	margin-bottom: .5rem;
+	/* border: 7px solid   rgb(162, 143, 73); */
+	
 }
