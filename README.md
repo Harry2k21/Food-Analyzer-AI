@@ -63,7 +63,7 @@ To make some money of course 🤑
 
 [Gif with Border](https://user-images.githubusercontent.com/125808990/234828575-ff9ecfb2-3ccb-4cd5-8dd9-99295eaf5b26.png)
 
-[Mobile View  Top](https://user-images.githubusercontent.com/125808990/234833094-fb8e4130-9a34-4702-b3c0-84e02cdedd15.png)
+[Mobile View Gif no Border](https://user-images.githubusercontent.com/125808990/234833094-fb8e4130-9a34-4702-b3c0-84e02cdedd15.png)
 
 [Gif Button](https://user-images.githubusercontent.com/125808990/234833153-ee6afbc2-ce9c-4be9-854c-4257aac013e4.png)
 
